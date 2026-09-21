@@ -1,21 +1,32 @@
 {
-  "ready": false,
+  "ready": true,
   "reportDate": "2026-09-21",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-09-21T08:34:52+08:00",
+  "generatedAt": "2026-09-21T11:57:37+08:00",
   "weekday": "星期一",
-  "headline": "欧洲航空燃油供应缺口成为今日早间已严格核验焦点",
-  "summary": "本次已从零检索北京时间2026-09-21 00:00至08:34的公开信息。严格按发布时间换算并核验后，目前仅确认1条新闻满足当天窗口要求；科技与指定体育项目暂未获得足够符合条件且可核验的数据。为避免用9月20日或更早内容补位，本次写入今日已核验数据，但因栏目关键数据不足，ready保持false。",
+  "headline": "中美讨论AI事件通报机制，中国收紧人形机器人IPO节奏，霍尔木兹海峡航运持续受扰",
+  "summary": "北京时间9月21日上午的已核验信息显示，中美经贸磋商把AI安全事件通报机制纳入讨论；中国监管部门正放慢部分人形机器人企业上市节奏；霍尔木兹海峡可见船舶通行量维持低位，欧洲航空燃油供应继续承压。亚洲市场整体走高，越南正式加入富时罗素新兴市场指数。体育方面，NFL多场比赛已产生最终结果。",
   "news": [
-    {
-      "category": "能源经济",
-      "status": "当天发布已核验",
-      "title": "欧洲第四季度航空燃油供应预计出现明显缺口",
-      "summary": "路透于北京时间9月21日08:04发布报道，援引分析机构和航运数据称，受中东供应受扰影响，欧洲第四季度航空燃油预计短缺约51万桶/日；韩国9月对欧洲航空燃油出口升至近四年高位。",
-      "impact": "欧洲对美国、加拿大、尼日利亚、韩国等外部供应来源的依赖上升，若中东供应进一步受扰，航空燃油价格和航空业成本压力可能继续增加。"
-    }
+    {"category":"国际政治","status":"当天发布已核验","title":"中美讨论建立AI安全事件通报机制","summary":"美国财长贝森特与中国国务院副总理何立峰在纽约会谈后，美方提出针对可能上升至国家安全层级的AI事件建立通报机制，并讨论启动新的中美AI对话。","impact":"AI安全与国家安全议题进一步进入中美高层沟通框架，可能影响后续AI治理与经贸谈判。"},
+    {"category":"国际经济","status":"当天发布已核验","title":"越南加入富时罗素新兴市场指数","summary":"越南股票正式纳入富时罗素新兴市场指数体系，指数提供商估计这一变化最多可能引导约60亿美元资金流向越南市场。","impact":"有望扩大越南资本市场的国际资金来源，同时提高其市场制度与外资准入改革的重要性。"},
+    {"category":"能源经济","status":"当天发布已核验","title":"欧洲第四季度航空燃油供应预计出现明显缺口","summary":"分析机构预计欧洲第四季度航空燃油缺口约51万桶/日；韩国9月对欧洲航空燃油出口升至近四年高位。","impact":"欧洲航空业对远距离进口供应的依赖增加，燃油成本与供应风险仍偏高。"},
+    {"category":"国际安全","status":"当天发布已核验","title":"霍尔木兹海峡可见船舶通行量继续处于低位","summary":"周末仅约12艘商品运输船可见通过霍尔木兹海峡，明显低于冲突前水平；部分中东油轮关闭应答器航行。","impact":"全球能源运输关键通道持续受地缘局势影响，油气供应链仍存在扰动风险。"},
+    {"category":"亚洲外交","status":"当天发布已核验","title":"韩国总统李在明启程赴美参加联合国大会并访问墨西哥","summary":"韩国总统李在明将于9月21日至27日访问美国和墨西哥，参加联合国大会并计划与墨西哥总统辛鲍姆举行峰会。","impact":"访问涉及韩美投资谈判以及韩国与墨西哥在贸易、能源、航空航天等领域的合作。"},
+    {"category":"金融市场","status":"当天发布已核验","title":"亚洲股市在科技板块带动下走高","summary":"亚洲主要市场周一整体上涨，韩国科技股和中国蓝筹股走强；油价因中东供应增加迹象回落。","impact":"科技需求与能源价格变化继续共同影响亚洲风险资产表现。"}
   ],
-  "tech": [],
-  "sports": [],
-  "sportsNote": "截至北京时间08:34，本次未把正在进行中的赛事列入数据；同时未使用北京时间9月21日之外的旧赛程或旧赛果补位。科技与指定体育栏目暂未获得足够符合严格当天窗口要求的可核验条目。"
+  "tech": [
+    {"category":"具身智能","status":"当天发布已核验","title":"中国放慢部分人形机器人企业IPO节奏","summary":"路透报道，中国监管部门正加强对人形机器人企业上市申请的审查，重点关注估值、收入质量以及政府支持项目是否能代表真实商业需求。","impact":"行业融资逻辑可能从概念与估值驱动进一步转向商业订单、可持续收入和实际部署。"},
+    {"category":"AI治理","status":"当天发布已核验","title":"中美拟开展AI对话并讨论国家安全事件通知机制","summary":"中美经贸官员讨论建立新的AI对话机制，美方提出对达到国家安全层级的AI相关事件进行相互通知。","impact":"跨国AI风险沟通可能从原则性讨论逐渐转向具体机制设计。"},
+    {"category":"AI产品","status":"当天发布已核验","title":"Meta推出个人AI代理Muse并展开大众市场推广","summary":"Meta推出个人AI代理Muse，主打在消息应用中协助处理邮件、日程和购物等日常任务，并通过电视广告面向大众推广。","impact":"AI代理正从技术用户工具向普通消费者场景扩张，同时提高隐私、账户权限和自动执行安全的重要性。"},
+    {"category":"AI产业","status":"当天发布已核验","title":"AI模型开发速度与安全治理争论继续升温","summary":"美国科技政策官员表示，如果AI公司认为其模型存在不可接受风险，可以主动停止或放慢开发；产业界围绕是否协调放缓前沿AI开发仍存在明显分歧。","impact":"AI企业未来可能面临更强的自律、安全评估和政策压力。"}
+  ],
+  "sports": [
+    {"statusLabel":"已结束","finished":true,"time":"2026-09-21 北京时间上午","league":"NFL","stage":"常规赛","matchup":"Dallas Cowboys vs Washington Commanders","finalResult":"Cowboys 37-20 Commanders","note":"Dak Prescott单场4次达阵传球，并刷新牛仔队生涯达阵传球纪录。"},
+    {"statusLabel":"已结束","finished":true,"time":"2026-09-21 北京时间上午","league":"NFL","stage":"常规赛","matchup":"Green Bay Packers vs New York Jets","finalResult":"Packers 20-17 Jets（加时）","note":"Trey Smack在加时赛命中制胜26码任意球。"},
+    {"statusLabel":"已结束","finished":true,"time":"2026-09-21 北京时间上午","league":"NFL","stage":"常规赛","matchup":"New Orleans Saints vs Baltimore Ravens","finalResult":"Saints 24-17 Ravens","note":"New Orleans完成逆转。"},
+    {"statusLabel":"已结束","finished":true,"time":"2026-09-21 北京时间上午","league":"NFL","stage":"常规赛","matchup":"Denver Broncos vs Jacksonville Jaguars","finalResult":"Broncos 20-13 Jaguars","note":"Denver第四节反超并取胜。"},
+    {"statusLabel":"已结束","finished":true,"time":"2026-09-21 北京时间上午","league":"NFL","stage":"常规赛","matchup":"Las Vegas Raiders vs Los Angeles Chargers","finalResult":"Raiders 26-14 Chargers","note":"Kirk Cousins传出3次达阵。"},
+    {"statusLabel":"已结束","finished":true,"time":"2026-09-21 北京时间上午","league":"NFL","stage":"常规赛","matchup":"San Francisco 49ers vs Miami Dolphins","finalResult":"49ers 35-13 Dolphins","note":"Brock Purdy贡献3次达阵，Christian McCaffrey完成个人第100次冲球达阵。"}
+  ],
+  "sportsNote": "仅收录本次运行时能够核验且北京时间9月21日已结束的指定体育赛事；未使用无法核验的赛程或旧赛果补位。"
 }
