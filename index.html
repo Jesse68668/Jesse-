@@ -4,87 +4,319 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="每日全球简报">
+  <meta name="theme-color" content="#071426">
+
   <title>每日全球简报</title>
+
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <main class="container">
 
+  <main class="page-shell">
+
+    <!-- 顶部 -->
     <header class="hero">
-      <div class="brand">DAILY GLOBAL BRIEF</div>
 
-      <h1>每日全球简报</h1>
+      <div class="hero-bg"></div>
 
-      <div id="dateInfo" class="date-info">
-        正在读取今日简报…
+      <div class="hero-inner">
+
+        <div class="brand-row">
+
+          <div>
+            <div class="eyebrow">
+              DAILY GLOBAL BRIEF
+            </div>
+
+            <h1>每日全球简报</h1>
+          </div>
+
+          <div class="timezone-badge">
+            Asia / Shanghai
+          </div>
+
+        </div>
+
+        <div class="hero-meta">
+
+          <span id="reportDate">
+            ----
+          </span>
+
+          <span class="dot">•</span>
+
+          <span id="weekday">
+            --
+          </span>
+
+          <span class="dot">•</span>
+
+          <span id="heroGeneratedAt">
+            --
+          </span>
+
+        </div>
+
       </div>
+
     </header>
 
-    <section id="loading" class="status-box">
-      今日简报正在加载，请稍候…
+
+    <!-- 加载状态 -->
+
+    <section
+      id="loading"
+      class="state-card">
+
+      <div class="loader"></div>
+
+      <div>
+        <strong>正在读取今日简报</strong>
+        <p>正在连接最新数据，请稍候。</p>
+      </div>
+
     </section>
 
-    <section id="error" class="status-box error hidden">
-      今日简报正在生成或数据暂未就绪，请稍后刷新。
+
+    <!-- 错误状态 -->
+
+    <section
+      id="error"
+      class="state-card error-state hidden">
+
+      <strong>
+        今日简报正在生成或数据暂未就绪，请稍后刷新。
+      </strong>
+
     </section>
 
-    <div id="content" class="hidden">
 
-      <section class="headline-card">
-        <div class="section-label">TODAY</div>
+    <!-- 主体 -->
+
+    <div
+      id="content"
+      class="content hidden">
+
+
+      <!-- 今日头条 -->
+
+      <section class="lead-card">
+
+        <div class="lead-badge">
+          今日要闻
+        </div>
+
         <h2 id="headline"></h2>
+
         <p id="summary"></p>
-      </section>
 
-      <section class="section">
-        <div class="section-heading">
-          <div>
-            <span class="section-number">01</span>
-            <h2>国内外新闻</h2>
-          </div>
-          <span id="newsCount" class="count"></span>
+        <div class="lead-footer">
+
+          <span>
+            DAILY BRIEF
+          </span>
+
+          <span id="leadDate"></span>
+
         </div>
 
-        <div id="newsList" class="cards"></div>
       </section>
 
-      <section class="section">
-        <div class="section-heading">
-          <div>
-            <span class="section-number">02</span>
-            <h2>AI / 科技</h2>
+
+      <!-- 数据概览 -->
+
+      <section class="stats-grid">
+
+        <div class="stat-card">
+
+          <div
+            id="newsStat"
+            class="stat-number">
+            0
           </div>
-          <span id="techCount" class="count"></span>
+
+          <div class="stat-label">
+            国内外新闻
+          </div>
+
         </div>
 
-        <div id="techList" class="cards"></div>
-      </section>
 
-      <section class="section">
-        <div class="section-heading">
-          <div>
-            <span class="section-number">03</span>
-            <h2>体育赛事</h2>
+        <div class="stat-card">
+
+          <div
+            id="techStat"
+            class="stat-number">
+            0
           </div>
-          <span id="sportsCount" class="count"></span>
+
+          <div class="stat-label">
+            AI / 科技
+          </div>
+
         </div>
 
-        <div id="sportsList" class="cards"></div>
 
-        <p id="sportsNote" class="sports-note"></p>
+        <div class="stat-card">
+
+          <div
+            id="sportsStat"
+            class="stat-number">
+            0
+          </div>
+
+          <div class="stat-label">
+            体育赛事
+          </div>
+
+        </div>
+
       </section>
+
+
+      <!-- 国内外新闻 -->
+
+      <section class="content-section">
+
+        <div class="section-header">
+
+          <div>
+
+            <span class="section-index">
+              01
+            </span>
+
+            <h2>
+              国内外新闻
+            </h2>
+
+          </div>
+
+          <span
+            id="newsCount"
+            class="section-count">
+          </span>
+
+        </div>
+
+
+        <div
+          id="newsList"
+          class="article-grid">
+        </div>
+
+      </section>
+
+
+      <!-- AI / 科技 -->
+
+      <section class="content-section">
+
+        <div class="section-header">
+
+          <div>
+
+            <span class="section-index">
+              02
+            </span>
+
+            <h2>
+              AI / 科技
+            </h2>
+
+          </div>
+
+          <span
+            id="techCount"
+            class="section-count">
+          </span>
+
+        </div>
+
+
+        <div
+          id="techList"
+          class="article-grid tech-grid">
+        </div>
+
+      </section>
+
+
+      <!-- 体育 -->
+
+      <section class="content-section">
+
+        <div class="section-header">
+
+          <div>
+
+            <span class="section-index">
+              03
+            </span>
+
+            <h2>
+              体育赛事
+            </h2>
+
+          </div>
+
+          <span
+            id="sportsCount"
+            class="section-count">
+          </span>
+
+        </div>
+
+
+        <div
+          id="sportsList"
+          class="sports-grid">
+        </div>
+
+
+        <div
+          id="sportsNote"
+          class="sports-note">
+        </div>
+
+      </section>
+
+
+      <!-- 页脚 -->
+
+      <footer class="footer">
+
+        <div>
+
+          <strong>
+            每日全球简报
+          </strong>
+
+          <span>
+            DAILY GLOBAL BRIEF
+          </span>
+
+        </div>
+
+
+        <div class="footer-time">
+
+          数据更新时间
+
+          <span id="generatedAt">
+            --
+          </span>
+
+        </div>
+
+      </footer>
 
     </div>
-
-    <footer>
-      数据更新时间：
-      <span id="generatedAt">--</span>
-      · Asia/Shanghai
-    </footer>
 
   </main>
 
   <script src="./app.js"></script>
+
 </body>
 </html>
